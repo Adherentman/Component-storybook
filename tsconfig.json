@@ -9,6 +9,7 @@
     "allowJs": true,
     "jsx": "react",
     "moduleResolution": "node",
+    // "no-console": false,
     // "rootDirs": ["src", "stories"],
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
@@ -16,7 +17,7 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": true
+    "noUnusedLocals": true,
   },
   "exclude": [
     "node_modules",

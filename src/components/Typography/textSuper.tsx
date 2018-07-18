@@ -1,9 +1,27 @@
+import * as classNames from "classnames";
 import * as React from 'react';
-import { textSuper } from '..//Typography/typography';
+// import {
+//   fontSizeSuper,
+//   fontWeightMedium,
+//   lineHeightSuper
+// } from "../../styles/typography";
+// import styles from './a.css';
+import typographyStyles from '../Typography/typography';
 
-function TextSuper({children}: any) {
+function TextSuper({children, ...props}: any) {
+
+  const { superText } = props;
+
+  const typographyStyle = classNames({
+    [`${typographyStyles.superText}`]: superText
+  })
+
   return <React.Fragment>
-    <div style={textSuper()}>
+      {
+        // tslint:disable-next-line:no-console
+        console.log(typographyStyle)
+      }
+    <div className={typographyStyle}>
       {children}
     </div>
   </React.Fragment>

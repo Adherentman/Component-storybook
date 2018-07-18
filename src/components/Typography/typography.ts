@@ -5,11 +5,13 @@ import {
 } from "../../styles/typography";
 import font from '../../utils/font';
 
-export function textSuper() {
-  return {
+const typographyStyles: any = {
+  superText:{
     fontFamily: font(),
     fontSize: `${fontSizeSuper}px`,
     fontWeight: fontWeightMedium,
     lineHeight: lineHeightSuper,
-  };
-}
+  }
+};
+
+export default typographyStyles;

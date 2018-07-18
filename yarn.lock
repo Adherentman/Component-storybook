@@ -305,6 +305,10 @@
     react-split-pane "^0.1.77"
     react-treebeard "^2.1.0"
 
+"@types/classnames@^2.2.5":
+  version "2.2.5"
+  resolved "http://registry.npm.taobao.org/@types/classnames/download/@types/classnames-2.2.5.tgz#62945b24b48dc02fb32e89252bde3daf942c4235"
+
 "@types/jest@^23.3.0":
   version "23.3.0"
   resolved "http://registry.npm.taobao.org/@types/jest/download/@types/jest-23.3.0.tgz#5dd70033b616a6228042244ebd992f6426808810"
@@ -2353,7 +2357,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.5:
+classnames@^2.2.5, classnames@^2.2.6:
   version "2.2.6"
   resolved "http://registry.npm.taobao.org/classnames/download/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
 
