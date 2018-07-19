@@ -1,5 +1,5 @@
-import TextSuper from './textSuper';
+import Typography from './Typography';
 
 export {
-  TextSuper
+  Typography
 }

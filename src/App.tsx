@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './App.css';
 
-import {TextSuper} from '../src/components/Typography';
+import {Typography} from '../src/components/Typography';
 import logo from './logo.svg';
 
 class App extends React.Component {
@@ -15,9 +15,9 @@ class App extends React.Component {
         <p className="App-intro">
           To get started, edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <TextSuper superText={true}>
+        <Typography size="superText">
           lalallalalal
-        </TextSuper>
+        </Typography>
       </div>
     );
   }

@@ -6,7 +6,7 @@ import { storiesOf } from '@storybook/react';
 
 
 // import {TextSuper} from '../build/dist/src/components/Typography';
-import { TextSuper } from '../src/components/Typography';
+import {Typography}  from '../src/components/Typography';
 
 // storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
@@ -20,5 +20,5 @@ import { TextSuper } from '../src/components/Typography';
 //     </Button>
 //   ));
 storiesOf('Typography', module)
-  .add('typography', () => <TextSuper>Top experiences in Asia</TextSuper>)
-  .add('typography2', () => <TextSuper>Top experiences in Asia2</TextSuper>)
+  .add('typography', () => <Typography>Top experiences in Asia</Typography>)
+  .add('typography2', () => <Typography>Top experiences in Asia2</Typography>)
