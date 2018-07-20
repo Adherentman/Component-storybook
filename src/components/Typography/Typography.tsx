@@ -1,23 +1,36 @@
 import * as classNames from "classnames";
 import * as React from 'react';
 import injectSheet from 'react-jss';
-import typographyStyles from '../Typography/typographyStyles';
+import { ItypographyStylesType, typographyStyles } from '../Typography/typographyStyles';
 
-function Typography({children, ...props}: any) {
+export type TypographySizeType = "super" | 'H1' | 'H2' | 'H3' | 'H4' | 'H5' | 'H6' | 'H7' | 'H8';
 
-  const { size, classes } = props;
+export interface IBaseTypographyProps {
+  size?: TypographySizeType;
+  classes: ItypographyStylesType;
+  children: any;
+}
+function Typography({...props}: IBaseTypographyProps) {
+
+  const { size, classes, children } = props;
 
   const typographyStyle = classNames(
     classes.root,
     {
-      [classes.superStyle]: size === 'superText'
+      [classes.superStyle]: size === 'super',
+      [classes.sizeHeading1]: size === 'H1',
+      [classes.sizeHeading2]: size === 'H2',
+      [classes.sizeHeading3]: size === 'H3',
+      [classes.sizeHeading4]: size === 'H4',
+      [classes.sizeHeading5]: size === 'H5',
+      [classes.sizeHeading6]: size === 'H6',
+      [classes.sizeHeading7]: size === 'H7',
+      [classes.sizeHeading8]: size === 'H8',
     }
 )
 
   return <React.Fragment>
-    <div className={typographyStyle}>
-      <span>{children}</span>
-    </div>
+      <span className={typographyStyle}>{children}</span>
   </React.Fragment>
 }
 
