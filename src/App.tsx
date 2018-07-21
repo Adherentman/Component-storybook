@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './App.css';
 
-import Typography from '../src/components/Typography';
+import Typography from './components/Typography';
 import logo from './logo.svg';
 
 class App extends React.Component {

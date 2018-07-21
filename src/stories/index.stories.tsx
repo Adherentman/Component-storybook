@@ -1,12 +1,10 @@
-import * as React from 'react';
+// import { setAddon, storiesOf } from '@storybook/react';
+// import * as React from 'react';
+// import JSXAddon from 'storybook-addon-jsx';
+// import TypographyStory from './Typography/typography.stories';
+// import { wInfo } from './utils/wInfo';
 
-// import { action } from '@storybook/addon-actions';
-// import { linkTo } from '@storybook/addon-links';
-import { storiesOf } from '@storybook/react';
-
-
-// import {TextSuper} from '../build/dist/src/components/Typography';
-import TypographyStory from './typography';
+// setAddon(JSXAddon);
 
 // storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
@@ -19,5 +17,3 @@ import TypographyStory from './typography';
 //       </span>
 //     </Button>
 //   ));
-storiesOf('Typography', module)
-  .add('typography', () => <TypographyStory/>)
