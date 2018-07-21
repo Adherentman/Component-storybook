@@ -1,10 +1,15 @@
 import {  select, withKnobs } from '@storybook/addon-knobs';
-import { storiesOf } from  '@storybook/react';
+import { setAddon, storiesOf } from  '@storybook/react';
 import * as React from 'react';
+import JSXAddon from 'storybook-addon-jsx';
 import { Typography } from '../../components';
+import TypographyStory from './typography';
+
+setAddon(JSXAddon)
 
 storiesOf('Typography', module)
   .addDecorator(withKnobs)
-  .add('super-H8', () => (
-    <Typography size={select('Size', ["H1", "H2", "H3", "H4", "H5", "H6", "H7", "H8"], 'H1')}>Nice Typography</Typography>
-  )) 
+  .add('Typography', () => <TypographyStory/>)
+  .addWithJSX('super —— H8', () => <Typography size={select('Size', ["super", "H1", "H2", "H3", "H4", "H5", "H6", "H7", "H8"], "super")}>Amazing Typography</Typography>,
+  { displayName: 'Typography' }
+)

@@ -1,84 +1,52 @@
-// import * as React from 'react';
-// import { Typography } from '../../components';
+import * as React from 'react';
+import { Typography } from '../../components';
 // import styles from '../styles.css';
 
-// function TypographyStory() {
-//   return (
-//     <div className={styles.main}>
-//       <h1>Typography</h1>
+const data = [
+  {size: "super", value: "Super Typography" },
+  {size: "H1", value: "H1 Typography" },
+  {size: "H2", value: "H2 Typography" },
+  {size: "H3", value: "H3 Typography" },
+  {size: "H4", value: "H4 Typography" },
+  {size: "H5", value: "H5 Typography" },
+  {size: "H6", value: "H6 Typography" },
+  {size: "H7", value: "H7 Typography" },
+  {size: "H8", value: "H8 Typography" },
+]
 
-//       <div>
-//         <div className={styles.smallText}>
-//           <small>Super</small>
-//         </div>
-//         <Typography size="super">Super Typography</Typography>
-//       </div>
-//       <br/>
+const styles = {
+  main: {
+    fontFamily: "Helvetica Neue', 'Helvetica', 'Segoe UI', 'Arial', sans-serif",
+    lineHeigh: 1.4,
+    maxWidth: 1290,
+    // tslint:disable-next-line:object-literal-sort-keys
+    margin: 15
+  },
+  smallText: {
+    color: 'rgba(0, 0, 0, .3)',
+    fontSize: '16px',
+    lineHeight: 3,
+    marginBottom: '1em',
+  }
+}
+class TypographyStory extends React.Component {
+  public render(){
+    return(
+      <div style={styles.main}>
+        <h1>Typography</h1>
+        {
+          data.map((x, index) => (
+            <React.Fragment key={index}>
+              <div>
+                <small style={styles.smallText}>{x.size}</small>
+              </div>
+              <Typography size={x.size}>{x.value}</Typography>
+            </React.Fragment>
+          ))
+        }
+      </div>
+    )
+  }
+}
 
-//       <div>
-//         <div className={styles.smallText}>
-//           <small>H1</small>
-//         </div>
-//         <Typography size="H1">H1 Typography</Typography>
-//       </div>
-//       <br/>
-
-//       <div>
-//         <div className={styles.smallText}>
-//           <small>H2</small>
-//         </div>
-//         <Typography size="H2">H2 Typography</Typography>
-//       </div>
-//       <br/>
-
-//       <div>
-//         <div className={styles.smallText}>
-//           <small>H3</small>
-//         </div>
-//         <Typography size="H3">H3 Typography</Typography>
-//       </div>
-//       <br/>
-
-//       <div>
-//         <div className={styles.smallText}>
-//           <small>H4</small>
-//         </div>
-//         <Typography size="H4">H4 Typography</Typography>
-//       </div>
-//       <br/>
-
-//       <div>
-//         <div className={styles.smallText}>
-//           <small>H5</small>
-//         </div>
-//         <Typography size="H5">H5 Typography</Typography>
-//       </div>
-//       <br/>
-
-//       <div>
-//         <div className={styles.smallText}>
-//           <small>H6</small>
-//         </div>
-//         <Typography size="H6">H6 Typography</Typography>
-//       </div>
-//       <br/>
-
-//       <div>
-//         <div className={styles.smallText}>
-//           <small>H7</small>
-//         </div>
-//         <Typography size="H7">H7 Typography</Typography>
-//       </div>
-//       <br/>
-
-//       <div>
-//         <div className={styles.smallText}>
-//           <small>H8</small>
-//         </div>
-//         <Typography size="H8">H8 Typography</Typography>
-//       </div>
-//       <br/>
-
-//     </div>
-//   )
-// }
+export default TypographyStory;
