@@ -330,6 +330,12 @@
     "@types/node" "*"
     "@types/react" "*"
 
+"@types/react-test-renderer@^16.0.1":
+  version "16.0.1"
+  resolved "http://registry.npm.taobao.org/@types/react-test-renderer/download/@types/react-test-renderer-16.0.1.tgz#36ee8c4fe33c61d460ad0e7bc42a2d0ddcc775a1"
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^16.4.6":
   version "16.4.6"
   resolved "http://registry.npm.taobao.org/@types/react/download/@types/react-16.4.6.tgz#5024957c6bcef4f02823accf5974faba2e54fada"
@@ -7765,6 +7771,10 @@ react-inspector@^2.3.0:
     babel-runtime "^6.26.0"
     is-dom "^1.0.9"
 
+react-is@^16.4.1:
+  version "16.4.1"
+  resolved "http://registry.npm.taobao.org/react-is/download/react-is-16.4.1.tgz#d624c4650d2c65dbd52c72622bbf389435d9776e"
+
 react-jss@^8.6.1:
   version "8.6.1"
   resolved "http://registry.npm.taobao.org/react-jss/download/react-jss-8.6.1.tgz#a06e2e1d2c4d91b4d11befda865e6c07fbd75252"
@@ -7850,6 +7860,15 @@ react-style-proptype@^3.0.0:
   resolved "http://registry.npm.taobao.org/react-style-proptype/download/react-style-proptype-3.2.1.tgz#7cfeb9b87ec7ab9dcbde9715170ed10c11fb86aa"
   dependencies:
     prop-types "^15.5.4"
+
+react-test-renderer@^16.4.1:
+  version "16.4.1"
+  resolved "http://registry.npm.taobao.org/react-test-renderer/download/react-test-renderer-16.4.1.tgz#f2fb30c2c7b517db6e5b10ed20bb6b0a7ccd8d70"
+  dependencies:
+    fbjs "^0.8.16"
+    object-assign "^4.1.1"
+    prop-types "^15.6.0"
+    react-is "^16.4.1"
 
 react-textarea-autosize@^6.1.0:
   version "6.1.0"

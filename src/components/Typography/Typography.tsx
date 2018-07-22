@@ -1,7 +1,7 @@
 import * as classNames from "classnames";
 import * as React from 'react';
 import injectSheet from 'react-jss';
-import { ItypographyStylesType, typographyStyles } from './typographyStyles';
+import { ItypographyStylesType, typographyStyles } from './TypographyStyles';
 
 export type TypographySizeType = "super" 
 | 'H1' 
