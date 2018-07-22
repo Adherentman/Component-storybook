@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography change className 1`] = `
+<span
+  className="Typography-root-0-1-1"
+>
+  是是是
+</span>
+`;
