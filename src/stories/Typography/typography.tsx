@@ -12,6 +12,11 @@ const data = [
   {size: "H6", value: "H6 Typography" },
   {size: "H7", value: "H7 Typography" },
   {size: "H8", value: "H8 Typography" },
+  {size: "article", value: "article Typography" },
+  {size: "articleSmall", value: "articleSmall Typography" },
+  {size: "bodySmall", value: "bodySmall Typography" },
+  {size: "accent", value: "accent Typography" },
+  {size: "uppercase", value: "uppercase Typography" },
 ]
 
 const styles = {

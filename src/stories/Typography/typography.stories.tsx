@@ -10,6 +10,6 @@ setAddon(JSXAddon)
 storiesOf('Typography', module)
   .addDecorator(withKnobs)
   .add('Typography', () => <TypographyStory/>)
-  .addWithJSX('super —— H8', () => <Typography size={select('Size', ["super", "H1", "H2", "H3", "H4", "H5", "H6", "H7", "H8"], "super")}>Amazing Typography</Typography>,
+  .addWithJSX('super —— H8', () => <Typography size={select('Size', ["super", "H1", "H2", "H3", "H4", "H5", "H6", "H7", "H8", "article", "articleSmall", "bodySmall", "accent", "uppercase"], "super")}>Amazing Typography</Typography>,
   { displayName: 'Typography' }
 )

@@ -3,7 +3,20 @@ import * as React from 'react';
 import injectSheet from 'react-jss';
 import { ItypographyStylesType, typographyStyles } from './typographyStyles';
 
-export type TypographySizeType = "super" | 'H1' | 'H2' | 'H3' | 'H4' | 'H5' | 'H6' | 'H7' | 'H8';
+export type TypographySizeType = "super" 
+| 'H1' 
+| 'H2' 
+| 'H3' 
+| 'H4' 
+| 'H5' 
+| 'H6' 
+| 'H7' 
+| 'H8' 
+| 'article' 
+| 'articleSmall'
+| 'bodySmall'
+| 'accent'
+| 'uppercase';
 
 export interface IBaseTypographyProps {
   size?: TypographySizeType;
@@ -26,6 +39,12 @@ class Typography extends React.Component<IBaseTypographyProps> {
         [classes.sizeHeading6]: size === 'H6',
         [classes.sizeHeading7]: size === 'H7',
         [classes.sizeHeading8]: size === 'H8',
+        [classes.sizeBodyArticle]: size === 'article',
+        [classes.sizeBodyArticleSmall]: size === 'articleSmall',
+        [classes.sizeBodySmall]: size === 'bodySmall',
+        [classes.sizeAccent]: size === 'accent',
+        [classes.sizeUppercase]: size === 'uppercase'
+
       }
     )
     return <React.Fragment>
