@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typography> Should output a Typography 1`] = `
+<span
+  className="Typography-root-0-1-1"
+>
+  amazing Typography
+</span>
+`;
+
+exports[`<Typography> renders Chinese characters and size super - Uppercase 1`] = `
+<span
+  className="Typography-root-0-1-1"
+>
+  神奇的Typography
+</span>
+`;
+
+exports[`<Typography> renders Chinese characters and size super - Uppercase 2`] = `
+<span
+  className="Typography-root-0-1-1 Typography-superStyle-0-1-2"
+>
+  神奇的Typography
+</span>
+`;
+
+exports[`<Typography> renders Chinese characters and size super - Uppercase 3`] = `
+<span
+  className="Typography-root-0-1-1 Typography-sizeHeading1-0-1-3"
+>
+  神奇的Typography
+</span>
+`;
+
+exports[`<Typography> renders Chinese characters and size super - Uppercase 4`] = `
+<span
+  className="Typography-root-0-1-1 Typography-sizeHeading2-0-1-4"
+>
+  神奇的Typography
+</span>
+`;
+
+exports[`<Typography> renders Chinese characters and size super - Uppercase 5`] = `
+<span
+  className="Typography-root-0-1-1 Typography-sizeHeading3-0-1-5"
+>
+  神奇的Typography
+</span>
+`;
+
+exports[`<Typography> renders Chinese characters and size super - Uppercase 6`] = `
+<span
+  className="Typography-root-0-1-1 Typography-sizeHeading4-0-1-6"
+>
+  神奇的Typography
+</span>
+`;
+
+exports[`<Typography> renders Chinese characters and size super - Uppercase 7`] = `
+<span
+  className="Typography-root-0-1-1 Typography-sizeHeading5-0-1-7"
+>
+  神奇的Typography
+</span>
+`;
+
+exports[`<Typography> renders Chinese characters and size super - Uppercase 8`] = `
+<span
+  className="Typography-root-0-1-1 Typography-sizeHeading6-0-1-8"
+>
+  神奇的Typography
+</span>
+`;
+
+exports[`<Typography> renders Chinese characters and size super - Uppercase 9`] = `
+<span
+  className="Typography-root-0-1-1 Typography-sizeBodyArticle-0-1-11"
+>
+  神奇的Typography
+</span>
+`;
+
+exports[`<Typography> renders Chinese characters and size super - Uppercase 10`] = `
+<span
+  className="Typography-root-0-1-1 Typography-sizeBodyArticleSmall-0-1-12"
+>
+  神奇的Typography
+</span>
+`;
+
+exports[`<Typography> renders Chinese characters and size super - Uppercase 11`] = `
+<span
+  className="Typography-root-0-1-1 Typography-sizeBodySmall-0-1-13"
+>
+  神奇的Typography
+</span>
+`;
+
+exports[`<Typography> renders Chinese characters and size super - Uppercase 12`] = `
+<span
+  className="Typography-root-0-1-1 Typography-sizeAccent-0-1-14"
+>
+  神奇的Typography
+</span>
+`;
+
+exports[`<Typography> renders Chinese characters and size super - Uppercase 13`] = `
+<span
+  className="Typography-root-0-1-1 Typography-sizeUppercase-0-1-15"
+>
+  神奇的Typography
+</span>
+`;
