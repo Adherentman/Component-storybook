@@ -1,4 +1,4 @@
-export const benton = [
+export const benton: string[] = [
   "lucida grande", 
   "lucida sans unicode", 
   "lucida", 

@@ -1,4 +1,5 @@
 import * as classNames from "classnames";
+import * as PropTypes from 'prop-types';
 import * as React from 'react';
 import injectSheet from 'react-jss';
 import { ItypographyStylesType, typographyStyles } from './TypographyStyles';
@@ -24,6 +25,10 @@ export interface IBaseTypographyProps {
   children: React.ReactNode;
 }
 class Typography extends React.Component<IBaseTypographyProps> {
+  public static propTypes = {
+    size: PropTypes.oneOf(['super', 'H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'H7', 'H8', 'article', 'articleSmall', 'bodySmall', 'accent', 'uppercase']),
+    // children: 
+  }
   public render () {
     const { size, classes, children } = this.props;
 
