@@ -1,20 +1,17 @@
-import * as React from 'react';
-import * as renderer from 'react-test-renderer';
-import Typography from '../components/Typography';
+import * as React from "react";
+import * as renderer from "react-test-renderer";
+import Typography from "../components/Typography";
 
-
-describe('<Typography>', () => {
-  it('Should output a Typography', () => {
+describe("<Typography>", () => {
+  it("Should output a Typography", () => {
     const wrapper = renderer.create(
       <Typography>amazing Typography</Typography>
     );
     expect(wrapper).toMatchSnapshot();
   });
 
-  it('renders Chinese characters and size super - Uppercase', () => {
-    const wrapper1 = renderer.create(
-      <Typography>神奇的Typography</Typography>
-    );
+  it("renders Chinese characters and size super - Uppercase", () => {
+    const wrapper1 = renderer.create(<Typography>神奇的Typography</Typography>);
     expect(wrapper1).toMatchSnapshot();
 
     const wrapper2 = renderer.create(
@@ -76,11 +73,10 @@ describe('<Typography>', () => {
       <Typography size="uppercase">神奇的Typography</Typography>
     );
     expect(wrapper13).toMatchSnapshot();
-  })
-})
-
+  });
+});
 
 // const testInstance = testRenderer.root;
-    // // tslint:disable-next-line:no-console
-    // console.log(testInstance)
-    // expect(testInstance.findByType(Typography).props.size).toBe('super');
+// // tslint:disable-next-line:no-console
+// console.log(testInstance)
+// expect(testInstance.findByType(Typography).props.size).toBe('super');

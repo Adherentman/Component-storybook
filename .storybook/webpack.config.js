@@ -20,8 +20,8 @@ module.exports = (baseConfig, env, config) => {
     include: path.resolve(__dirname, "../src"),
     use: [
       require.resolve("ts-loader"),
-      require.resolve("react-docgen-typescript-loader"),
-    ],
+      require.resolve("react-docgen-typescript-loader")
+    ]
   });
   // config.plugins.push(new TSDocgenPlugin()); // optional
   config.resolve.extensions.push(".ts", ".tsx");
