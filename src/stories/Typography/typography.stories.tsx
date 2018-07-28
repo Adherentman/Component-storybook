@@ -51,7 +51,7 @@ Typography.defaultProps = {
 
 Typography.propTypes = {
   /**
-   * @description big size
+   * @description big sizeo
    */
   size: PropTypes.oneOf([
     "super",

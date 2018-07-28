@@ -45,6 +45,7 @@ const Typography: React.SFC<IBaseTypographyProps> = props => {
     [classes.sizeAccent]: size === "accent",
     [classes.sizeUppercase]: size === "uppercase"
   });
+
   return (
     <React.Fragment>
       <span className={typographyStyle}>{children}</span>
