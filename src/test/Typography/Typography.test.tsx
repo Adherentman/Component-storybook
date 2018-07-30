@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as renderer from "react-test-renderer";
-import Typography from "../components/Typography";
+import Typography from "../../components/Typography";
 
 describe("<Typography>", () => {
   it("Should output a Typography", () => {
