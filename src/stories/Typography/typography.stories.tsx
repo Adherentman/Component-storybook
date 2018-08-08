@@ -11,7 +11,7 @@ storiesOf("Typography", module)
   .addDecorator(withKnobs)
   .add("Typography", () => <TypographyStory />)
   .add(
-    "super —— H8",
+    "super —— H6",
     withInfo({
       propTables: [Typography],
       text: "哒哒哒哒哒"
@@ -27,8 +27,6 @@ storiesOf("Typography", module)
             "H4",
             "H5",
             "H6",
-            "H7",
-            "H8",
             "article",
             "articleSmall",
             "bodySmall",
@@ -61,8 +59,6 @@ Typography.propTypes = {
     "H4",
     "H5",
     "H6",
-    "H7",
-    "H8",
     "article",
     "articleSmall",
     "bodySmall",

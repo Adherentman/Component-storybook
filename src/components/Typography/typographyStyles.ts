@@ -9,8 +9,6 @@ import {
   fontSizeHeading4,
   fontSizeHeading5,
   fontSizeHeading6,
-  fontSizeHeading7,
-  fontSizeHeading8,
   fontSizeSuper,
   fontSizeUppercase,
   fontWeightMedium,
@@ -25,8 +23,6 @@ import {
   lineHeightHeading4,
   lineHeightHeading5,
   lineHeightHeading6,
-  lineHeightHeading7,
-  lineHeightHeading8,
   lineHeightSuper,
   lineHeightUppercase
 } from "../../styles/typography";
@@ -41,8 +37,6 @@ export interface ItypographyStylesType {
   sizeHeading4: any;
   sizeHeading5: any;
   sizeHeading6: any;
-  sizeHeading7: any;
-  sizeHeading8: any;
   sizeBodyArticle: any;
   sizeBodyArticleSmall: any;
   sizeBodySmall: any;
@@ -89,16 +83,6 @@ export const typographyStyles: ItypographyStylesType = {
     fontSize: fontSizeHeading6,
     fontWeight: fontWeightRegular,
     lineHeight: lineHeightHeading6
-  },
-  sizeHeading7: {
-    fontSize: fontSizeHeading7,
-    fontWeight: fontWeightRegular,
-    lineHeight: lineHeightHeading7
-  },
-  sizeHeading8: {
-    fontSize: fontSizeHeading8,
-    fontWeight: fontWeightRegular,
-    lineHeight: lineHeightHeading8
   },
   sizeBodyArticle: {
     fontSize: fontSizeBodyArticle,

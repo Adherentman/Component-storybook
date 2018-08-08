@@ -10,8 +10,6 @@ const data = [
   { size: "H4", value: "H4 Typography" },
   { size: "H5", value: "H5 Typography" },
   { size: "H6", value: "H6 Typography" },
-  { size: "H7", value: "H7 Typography" },
-  { size: "H8", value: "H8 Typography" },
   { size: "article", value: "article Typography" },
   { size: "articleSmall", value: "articleSmall Typography" },
   { size: "bodySmall", value: "bodySmall Typography" },

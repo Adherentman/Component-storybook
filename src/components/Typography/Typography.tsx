@@ -12,8 +12,6 @@ export type TypographySizeType =
   | "H4"
   | "H5"
   | "H6"
-  | "H7"
-  | "H8"
   | "article"
   | "articleSmall"
   | "bodySmall"
@@ -37,8 +35,6 @@ const Typography: React.SFC<IBaseTypographyProps> = props => {
     [classes.sizeHeading4]: size === "H4",
     [classes.sizeHeading5]: size === "H5",
     [classes.sizeHeading6]: size === "H6",
-    [classes.sizeHeading7]: size === "H7",
-    [classes.sizeHeading8]: size === "H8",
     [classes.sizeBodyArticle]: size === "article",
     [classes.sizeBodyArticleSmall]: size === "articleSmall",
     [classes.sizeBodySmall]: size === "bodySmall",
