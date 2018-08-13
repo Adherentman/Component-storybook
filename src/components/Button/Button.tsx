@@ -1,4 +1,4 @@
-import * as classNames from "classnames";
+// import * as classNames from "classnames";
 import * as React from "react";
 
 export type ButtonSize = "small" | "medium" | "large";
@@ -10,7 +10,7 @@ interface IBaseButtonProps {
 
 class Button extends React.Component<IBaseButtonProps> {
   public render() {
-    const { children, size } = this.props;
+    const { children } = this.props;
     return (
       <React.Fragment>
         <button>{children}</button>
